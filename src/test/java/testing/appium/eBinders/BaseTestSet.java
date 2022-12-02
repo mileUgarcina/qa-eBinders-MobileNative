@@ -36,6 +36,7 @@ public class BaseTestSet {
     PrivacyPolicyPage ppp;
     TermsAndUsePage taup;
     SoftwareLicensesPage slp;
+    TermsOfUsePage toup;
 
 
 
@@ -76,6 +77,7 @@ public class BaseTestSet {
         ppp = new PrivacyPolicyPage(driver);
         taup = new TermsAndUsePage(driver);
         slp = new SoftwareLicensesPage(driver);
+        toup = new TermsOfUsePage(driver);
 
     }
 

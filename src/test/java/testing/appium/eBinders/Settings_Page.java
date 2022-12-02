@@ -1,12 +1,13 @@
 package testing.appium.eBinders;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 import testing.appium.helpers.TcRetry;
 import testing.appium.helpers.jiraTicket.Bug;
 import testing.appium.helpers.testCaseId.TcID;
 import testing.appium.runner.TestListener_Xray;
 
-import static testing.appium.helpers.TCLogger.LoggerInformation;
+import static testing.appium.helpers.TCLogger.*;
 import static testing.appium.helpers.Utils.resetApp;
 import static testing.appium.runner.propertyFile.DataProvider.ENVIRONMENT;
 import static testing.appium.runner.propertyFile.DataProvider.environmentData.iOS_BUNDLE_ID;
@@ -76,7 +77,7 @@ public class Settings_Page extends BaseTestSet {
     }
 
     @Bug(androidTicket ="null", iOSTicket="null")
-    @TcID(tcId = "MOB-461")
+    @TcID(tcId = "MOB-579")
     @Test(groups= {"Android", "iOS"},
             testName = "Mobile - Settings Page - Account",
             description = "Test case checks Account name",
@@ -90,7 +91,7 @@ public class Settings_Page extends BaseTestSet {
     }
 
     @Bug(androidTicket ="null", iOSTicket="null")
-    @TcID(tcId = "MOB-461")
+    @TcID(tcId = "MOB-580")
     @Test(groups= {"Android", "iOS"},
             testName = "Mobile - Settings Page - App Version",
             description = "Test case checks App Version",
@@ -104,7 +105,7 @@ public class Settings_Page extends BaseTestSet {
     }
 
     @Bug(androidTicket ="null", iOSTicket="null")
-    @TcID(tcId = "MOB-461")
+    @TcID(tcId = "MOB-581")
     @Test(groups= {"Android", "iOS"},
             testName = "Mobile - Settings Page - Contact Support",
             description = "Test case checks if Contact Support link works",
@@ -115,11 +116,14 @@ public class Settings_Page extends BaseTestSet {
         tcId = new Object(){}.getClass().getEnclosingMethod().getAnnotation(TcID.class).tcId();
 
         sp.clickOn_supportBtn();
+//        TODO Waiting for a fix from Nolan
+        LoggerAssert_Failed("Support Page does not open");
+        Assert.fail();
     }
 
 
     @Bug(androidTicket ="null", iOSTicket="null")
-    @TcID(tcId = "MOB-461")
+    @TcID(tcId = "MOB-582")
     @Test(groups= {"Android", "iOS"},
             testName = "Mobile - Settings Page - Privacy Policy",
             description = "Test case checks if Privacy Policy link work",
@@ -135,7 +139,7 @@ public class Settings_Page extends BaseTestSet {
 
 
     @Bug(androidTicket ="null", iOSTicket="null")
-    @TcID(tcId = "MOB-461")
+    @TcID(tcId = "MOB-583")
     @Test(groups= {"Android", "iOS"},
             testName = "Mobile - Settings Page - Privacy Policy",
             description = "Test case checks if Privacy Policy link work",
@@ -151,7 +155,7 @@ public class Settings_Page extends BaseTestSet {
 
 
     @Bug(androidTicket ="null", iOSTicket="null")
-    @TcID(tcId = "MOB-461")
+    @TcID(tcId = "MOB-584")
     @Test(groups= {"SmokeTest", "Android", "iOS"},
             testName = "Mobile - Settings Page - Sign Out",
             description = "Test case checks if Sign Out function work",

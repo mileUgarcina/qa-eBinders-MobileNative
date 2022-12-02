@@ -277,7 +277,7 @@ public class BaseInitConfig {
         capabilities.setCapability("app", DataProvider.SliOSConfigData.appSliOS());
         capabilities.setCapability("appium:deviceName", "iPhone.*");
         capabilities.setCapability("appium:automationName", DataProvider.SliOSConfigData.AUTOMATION_NAME_SL_IOS);
-//        capabilities.setCapability("appiumVersion", DataProvider.SliOSConfigData.APPIUM_VERSION_SL_IOS_REAL_DEVICE);
+        capabilities.setCapability("appiumVersion", DataProvider.SliOSConfigData.APPIUM_VERSION_SL_IOS_REAL_DEVICE);
         capabilities.setCapability("phoneOnly", DataProvider.SliOSConfigData.PHONE_ONLY_SL_IOS);
         capabilities.setCapability("allowTouchIdEnroll", DataProvider.SliOSConfigData.ALLOW_TOUCH_ID_ENROLL_SL_IOS);
         capabilities.setCapability("autoAcceptAlerts", DataProvider.SliOSConfigData.AUTO_ACCEPT_ALERTS_SL_IOS);

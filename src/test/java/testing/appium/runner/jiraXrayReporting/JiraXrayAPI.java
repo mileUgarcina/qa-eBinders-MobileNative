@@ -72,11 +72,11 @@ public class JiraXrayAPI {
     public static void xRayAPI() throws IOException {
 
         String evidencePath = "files/CLX_photo.jpg";
-        String evidences[] = evidencePath.split(",");
+        String[] evidences = evidencePath.split(",");
         JsonArray evidencesJson = new JsonArray();
 
-        for (int i = 0; i < evidences.length; i++) {
-            File evidenceFile = new File(evidences[i]);
+        for (String s : evidences) {
+            File evidenceFile = new File(s);
             byte[] filecontent = FileUtils.readFileToByteArray(evidenceFile);
             String encoded_FileContent = Base64.getEncoder().encodeToString(filecontent);
             JsonObject evidence = new JsonObject();

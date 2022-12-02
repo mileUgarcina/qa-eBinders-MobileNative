@@ -1013,21 +1013,21 @@ public class Utils{
      * @param driver - Appium Driver
      * @param count - Number of scroll repetitions
      */
-    public static void scrollDown(AppiumDriver<MobileElement> driver, int count) {
+    public static void scrollDown(AppiumDriver<MobileElement> driver, int count, int duration) {
 
         TouchAction action = new TouchAction(driver);
 
         Dimension dim = driver.manage().window().getSize();
 
         int x = dim.getWidth() / 2;
-        int startY = (int) (dim.getHeight() * 0.4);
-        int endY = (int) (dim.getHeight() * 0.2);
+        int startY = (int) (dim.getHeight() * 0.7);
+        int endY = (int) (dim.getHeight() * 0.01);
 
         for (int i = 0; i < count; i++) {
             try {
-                action.press(PointOption.point(x, startY)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000)))
+                action.press(PointOption.point(x, startY)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(duration)))
                         .moveTo(PointOption.point(x, endY)).release().perform();
-                LoggerAction("Scrolling down " + count + " times" + " -Start:" + startY + "px" + " -End:" + endY + "px");
+                LoggerAction("Scrolling down -Start:" + startY + "px" + " -End:" + endY + "px");
             } catch (Exception ex) {
                 LoggerStep_Failed("Unable to Scroll Down: " , ex.getMessage(), true);
             }

@@ -24,6 +24,7 @@ dependencies {
     compile group: 'org.seleniumhq.selenium',
             name: 'selenium-java',
             version: '3.14.0'
+//              version: '4.1.4'
 
     // https://mvnrepository.com/artifact/org.testng/testng
     compile group: 'org.testng',
@@ -34,6 +35,7 @@ dependencies {
     compile group: 'io.appium',
             name: 'java-client',
             version: '7.3.0'
+//            version: '8.2.1'
 
     // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
 	  compile group: 'org.apache.httpcomponents',
@@ -88,6 +90,7 @@ test {
         if (project.hasProperty('Reset_Password_iOS_QA')) {suites 'TestNG/iOS/Reset_Password.xml'}
         if (project.hasProperty('Inactivity_iOS_QA')) {suites 'TestNG/iOS/Inactivity.xml'}
         if (project.hasProperty('Settings_Page_iOS_QA')) {suites 'TestNG/iOS/Settings_Page.xml'}
+        if (project.hasProperty('Privacy_Policy_iOS_QA')) {suites 'TestNG/iOS/Privacy_Policy.xml'}
 
         /*Dev Environment*/
         if (project.hasProperty('Regression_iOS_FATE')) {suites 'TestNG/iOS/Regression_iOS_Suite.xml'}
@@ -98,6 +101,7 @@ test {
         if (project.hasProperty('Reset_Password_iOS_FATE')) {suites 'TestNG/iOS/Reset_Password.xml'}
         if (project.hasProperty('Inactivity_iOS_FATE')) {suites 'TestNG/iOS/Inactivity.xml'}
         if (project.hasProperty('Settings_Page_iOS_FATE')) {suites 'TestNG/iOS/Settings_Page.xml'}
+        if (project.hasProperty('Privacy_Policy_iOS_FATE')) {suites 'TestNG/iOS/Privacy_Policy.xml'}
 
         /*SIT Environment*/
         if (project.hasProperty('Regression_iOS_UAT')) {suites 'TestNG/iOS/Regression_iOS_Suite.xml'}
@@ -108,6 +112,7 @@ test {
         if (project.hasProperty('Reset_Password_iOS_UAT')) {suites 'TestNG/iOS/Reset_Password.xml'}
         if (project.hasProperty('Inactivity_iOS_UAT')) {suites 'TestNG/iOS/Inactivity.xml'}
         if (project.hasProperty('Settings_Page_iOS_UAT')) {suites 'TestNG/iOS/Settings_Page.xml'}
+        if (project.hasProperty('Privacy_Policy_iOS_UAT')) {suites 'TestNG/iOS/Privacy_Policy.xml'}
 
 
         useDefaultListeners = true
@@ -143,7 +148,8 @@ task generateConfig() {
             project.hasProperty('Welcome_iOS_QA') ||
             project.hasProperty('Reset_Password_iOS_QA') ||
             project.hasProperty('Inactivity_iOS_QA') ||
-            project.hasProperty('Settings_Page_iOS_QA')
+            project.hasProperty('Settings_Page_iOS_QA') ||
+            project.hasProperty('Privacy_Policy_iOS_QA')
       ){
         tasks.withType(Test){systemProperties = ["env": "QA"]}
 
@@ -156,7 +162,8 @@ task generateConfig() {
             project.hasProperty('Welcome_iOS_FATE') ||
             project.hasProperty('Reset_Password_iOS_FATE') ||
             project.hasProperty('Inactivity_iOS_FATE') ||
-            project.hasProperty('Settings_Page_iOS_FATE')
+            project.hasProperty('Settings_Page_iOS_FATE') ||
+            project.hasProperty('Privacy_Policy_iOS_FATE')
 
     ){
         tasks.withType(Test){systemProperties = ["env": "FATE"]}
@@ -169,7 +176,8 @@ task generateConfig() {
             project.hasProperty('Welcome_iOS_UAT') ||
             project.hasProperty('Reset_Password_iOS_UAT') ||
             project.hasProperty('Inactivity_iOS_UAT') ||
-            project.hasProperty('Settings_Page_iOS_UAT')
+            project.hasProperty('Settings_Page_iOS_UAT') ||
+            project.hasProperty('Privacy_Policy_iOS_UAT')
     ){
         tasks.withType(Test){systemProperties = ["env": "UAT"]}
       }
