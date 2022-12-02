@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Set - Sign In">
+
+<!--Device Parameter-->
+<!--    <parameter name="deviceParameter" value="localiOSimulatorSCapsWeb"/>-->
+    <parameter name="deviceParameter" value="SauceLabs_iOS_RealDevice_App"/>
+<!--    <parameter name="deviceParameter" value="BrowserStack_iOS_RealDevice_App"/>-->
+    <parameter name="platformParameter" value="iOS"/>
+    <parameter name="browserName" value="Safari"/>
+<!--TC Parameter-->
+    <parameter name="user" value="Participant"/>
+    <parameter name="crete_Xray_Test_Run" value="false"/>
+
+    <test name="Sign In">
+        <classes>
+            <class name="testing.appium.eBinders.Sign_In">
+
+                <methods>
+                    <include name="mobile_Incorrect_email"/>
+                    <include name="mobile_Invalid_Password_Regex"/>
+                    <include name="mobile_Incorrect_password_correct_email"/>
+                    <include name="mobile_Show_Password"/>
+                    <include name="mobile_Inactive_Account_Login"/>
+                    <include name="mobile_Log_In_Valid_Account_Different_Env"/>
+                    <include name="mobile_Valid_Login"/>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+</suite>
+
+

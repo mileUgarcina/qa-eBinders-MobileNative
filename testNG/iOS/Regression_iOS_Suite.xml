@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite - iOS">
+
+    <suite-files>
+
+        <suite-file path="Welcome.xml" />
+        <suite-file path="Sign_In.xml" />
+        <suite-file path="Reset_Password.xml" />
+
+    </suite-files>
+</suite>
+
+

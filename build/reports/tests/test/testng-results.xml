@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[2022-12-01 15:14:25.480  Information-->  This Test Run does Not imply the Creation of a Xray Test Report]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:14:27.276  Information-->  App File ID, Name and Version will be taken from SauceLabs]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:14:27.316  Information-->  SauceLabs, Florence App File ID: c6c926f0-69ee-4733-9856-20c7831d6cdb]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:14:27.337  Information-->  SauceLabs, Florence App Name env - Version: Florence UAT - 2022.13.1-1]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:14:27.345  Information-->  Running Suite: Test Set - Settings Page, one "UAT" environment]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:14:27.352  Information-->  Capabilities set for SauceLabs iOS Real Device - App, OS: 16]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:14:54.455  Information-->  SauceLabs Run Details Status: 200]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:14:54.588  Waiting--> For the Application to Load]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:14:55.223  Information-->  Application is Running]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:14:55.225  Waiting--> for "Sign In Button" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:14:57.090  Action-->  Click on Sign In Button]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:14:57.092  Waiting--> for "Florence Logo" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:14:58.258  Action-->  Click on Florence Logo]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:14:58.259  Waiting--> for "Welcome Message" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:14:59.274  Assert-->  Verification successful - "Choose An Environment" is Present]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:14:59.277  Waiting--> for "UAT" element to be Clickable]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:00.144  Action-->  Click on "UAT" element]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:00.144  Waiting--> for "UAT" element to be Clickable]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:01.076  Assert-->  Verification successful: UAT Environment is selected]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:01.077  Waiting--> for "Email Field" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:02.243  Action-->  Click on Email Field]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:03.496  Action-->  Input Email Field: mobile.automation@florencehc.com
+]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:03.497  Waiting--> for "Next Button" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:04.922  Action-->  Click on Next Button]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:04.923  Waiting--> for "Password Field" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:07.538  Action-->  Click on Password Field]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:08.492  Action-->  Input Password Field: Password123*
+]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:08.493  Waiting--> for "Sign In Button" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:09.881  Action-->  Click on Sign In Button]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:09.883  Waiting--> for "Hi, Mobile" element to be Clickable]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:12.635  Assert-->  Verification successful - element: "Home Page Welcome Message - Hi, Mobile" is Present]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:12.636  Waiting--> for "Binders Button" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:14.011  Action-->  Click on Binders Button]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:14.011  Waiting--> for "Person Circle Button" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:16.124  Action-->  Click on Person Circle Button]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:16.125  Waiting--> for "Settings Button" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:17.582  Action-->  Click on Settings Button]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:17.583  Waiting--> for "Welcome Message" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:20.923  Assert-->  Verification successful - "Settings" is Present]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:21.579  Waiting--> for "UAT" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:21.839  Assert-->  "UAT" is Present]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:22.453  Waiting--> for "UAT" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:22.764  Assert-->  "UAT" is Present]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:23.087  Action-->  Click on "UAT" Element]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:23.088  Waiting--> for "Welcome Message" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:26.438  Assert-->  Verification successful - "Settings" is Present]]>
+    </line>
+    <line>
+      <![CDATA[--- Test Case - mobile_Settings_Page_UAT_Symbol -- Finish --> {color:#36b37e}*PASSED*{color} ---\n]]>
+    </line>
+    <line>
+      <![CDATA[\n --- *Test Environment* ---  \nTest Execution video: [https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c|https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c]\nExecution name: eBinders-Florence UAT - 2022.13.1-1 - iOS --> Test Set - Settings Page\nDevice name: iPhone XR\nPlatform: iOS\nOS version: 15.6.1\nApp Name: Florence - eBinders\nEnvironment: UAT\nApp Version: 2022.13.1]]>
+    </line>
+    <line>
+      <![CDATA[[32m------------ >>>[ Test PASSED: mobile_Settings_Page_UAT_Symbol ]<<< ------------[0m]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:26.515  Information-->  There si no postcondition procedure for TC: mobile_Settings_Page_UAT_Symbol]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:26.519  Waiting--> for "mobile.automation@florencehc.com" element to be Clickable]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:28.447  Assert-->  Verification successful: mobile.automation@florencehc.com is Present]]>
+    </line>
+    <line>
+      <![CDATA[--- Test Case - mobile_Settings_Page_Account -- Finish --> {color:#36b37e}*PASSED*{color} ---\n]]>
+    </line>
+    <line>
+      <![CDATA[\n --- *Test Environment* ---  \nTest Execution video: [https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c|https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c]\nExecution name: eBinders-Florence UAT - 2022.13.1-1 - iOS --> Test Set - Settings Page\nDevice name: iPhone XR\nPlatform: iOS\nOS version: 15.6.1\nApp Name: Florence - eBinders\nEnvironment: UAT\nApp Version: 2022.13.1]]>
+    </line>
+    <line>
+      <![CDATA[[32m------------ >>>[ Test PASSED: mobile_Settings_Page_Account ]<<< ------------[0m]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:28.516  Information-->  There si no postcondition procedure for TC: mobile_Settings_Page_Account]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:28.522  Waiting--> for "Welcome Message" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:31.913  Assert-->  Verification successful - "2022.13.1" is Present]]>
+    </line>
+    <line>
+      <![CDATA[--- Test Case - mobile_Settings_Page_App_Version -- Finish --> {color:#36b37e}*PASSED*{color} ---\n]]>
+    </line>
+    <line>
+      <![CDATA[\n --- *Test Environment* ---  \nTest Execution video: [https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c|https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c]\nExecution name: eBinders-Florence UAT - 2022.13.1-1 - iOS --> Test Set - Settings Page\nDevice name: iPhone XR\nPlatform: iOS\nOS version: 15.6.1\nApp Name: Florence - eBinders\nEnvironment: UAT\nApp Version: 2022.13.1]]>
+    </line>
+    <line>
+      <![CDATA[[32m------------ >>>[ Test PASSED: mobile_Settings_Page_App_Version ]<<< ------------[0m]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:31.977  Information-->  There si no postcondition procedure for TC: mobile_Settings_Page_App_Version]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:31.979  Waiting--> for "Contact Support Button" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:34.054  Action-->  Click on Contact Support Button]]>
+    </line>
+    <line>
+      <![CDATA[--- Test Case - mobile_Settings_Page_Contact_Support -- Finish --> {color:#36b37e}*PASSED*{color} ---\n]]>
+    </line>
+    <line>
+      <![CDATA[\n --- *Test Environment* ---  \nTest Execution video: [https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c|https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c]\nExecution name: eBinders-Florence UAT - 2022.13.1-1 - iOS --> Test Set - Settings Page\nDevice name: iPhone XR\nPlatform: iOS\nOS version: 15.6.1\nApp Name: Florence - eBinders\nEnvironment: UAT\nApp Version: 2022.13.1]]>
+    </line>
+    <line>
+      <![CDATA[[32m------------ >>>[ Test PASSED: mobile_Settings_Page_Contact_Support ]<<< ------------[0m]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:34.123  Information-->  There si no postcondition procedure for TC: mobile_Settings_Page_Contact_Support]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:34.127  Waiting--> for "Privacy Policy Button" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:38.095  Action-->  Click on Privacy Policy Button]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:15:38.096  Waiting--> for "Privacy Page Title" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:10.849  Assert-->  Verification successful - "Privacy" is Present]]>
+    </line>
+    <line>
+      <![CDATA[--- Test Case - mobile_Settings_Page_Privacy_Policy -- Finish --> {color:#36b37e}*PASSED*{color} ---\n]]>
+    </line>
+    <line>
+      <![CDATA[\n --- *Test Environment* ---  \nTest Execution video: [https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c|https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c]\nExecution name: eBinders-Florence UAT - 2022.13.1-1 - iOS --> Test Set - Settings Page\nDevice name: iPhone XR\nPlatform: iOS\nOS version: 15.6.1\nApp Name: Florence - eBinders\nEnvironment: UAT\nApp Version: 2022.13.1]]>
+    </line>
+    <line>
+      <![CDATA[[32m------------ >>>[ Test PASSED: mobile_Settings_Page_Privacy_Policy ]<<< ------------[0m]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:10.916  Information-->  Postcondition procedure for TC: mobile_Settings_Page_Privacy_Policy]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:12.147  Information-->  Terminate iOS App: com.florencehc.florenceapp.internal]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:13.538  Information-->  Activate iOS App: com.florencehc.florenceapp.internal]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:13.539  Waiting--> for "Binders Button" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:14.933  Action-->  Click on Binders Button]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:14.934  Waiting--> for "Person Circle Button" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:16.968  Action-->  Click on Person Circle Button]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:16.970  Waiting--> for "Settings Button" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:18.398  Action-->  Click on Settings Button]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:18.398  Waiting--> for "Welcome Message" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:21.742  Assert-->  Verification successful - "Settings" is Present]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:21.756  Waiting--> for "Software Licenses Button" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:24.001  Action-->  Click on Software Licenses Button]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:24.002  Waiting--> for "Software Licenses Page Title" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:31.398  Assert-->  Verification successful - "Software Licenses" is Present]]>
+    </line>
+    <line>
+      <![CDATA[--- Test Case - mobile_Settings_Page_Software_Licenses -- Finish --> {color:#36b37e}*PASSED*{color} ---\n]]>
+    </line>
+    <line>
+      <![CDATA[\n --- *Test Environment* ---  \nTest Execution video: [https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c|https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c]\nExecution name: eBinders-Florence UAT - 2022.13.1-1 - iOS --> Test Set - Settings Page\nDevice name: iPhone XR\nPlatform: iOS\nOS version: 15.6.1\nApp Name: Florence - eBinders\nEnvironment: UAT\nApp Version: 2022.13.1]]>
+    </line>
+    <line>
+      <![CDATA[[32m------------ >>>[ Test PASSED: mobile_Settings_Page_Software_Licenses ]<<< ------------[0m]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:31.469  Information-->  Postcondition procedure for TC: mobile_Settings_Page_Software_Licenses]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:31.470  Waiting--> for "Close Button" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:34.463  Action-->  Click on Close Button]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:34.471  Waiting--> for "Sign Out Button" to be Visible]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:36.517  Action-->  Click on Sign Out Button]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:36.518  Waiting--> for "UAT" element to be Clickable]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:38.435  Assert-->  Verification successful: UAT Environment is selected]]>
+    </line>
+    <line>
+      <![CDATA[--- Test Case - mobile_Settings_Page_Sign_Out -- Finish --> {color:#36b37e}*PASSED*{color} ---\n]]>
+    </line>
+    <line>
+      <![CDATA[\n --- *Test Environment* ---  \nTest Execution video: [https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c|https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c]\nExecution name: eBinders-Florence UAT - 2022.13.1-1 - iOS --> Test Set - Settings Page\nDevice name: iPhone XR\nPlatform: iOS\nOS version: 15.6.1\nApp Name: Florence - eBinders\nEnvironment: UAT\nApp Version: 2022.13.1]]>
+    </line>
+    <line>
+      <![CDATA[[32m------------ >>>[ Test PASSED: mobile_Settings_Page_Sign_Out ]<<< ------------[0m]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:38.505  Information-->  There si no postcondition procedure for TC: mobile_Settings_Page_Sign_Out]]>
+    </line>
+    <line>
+      <![CDATA[2022-12-01 15:16:38.646  Action-->  Driver quit]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-01T15:14:54 CET" name="Test Set - Settings Page" finished-at="2022-12-01T15:16:38 CET" duration-ms="104081">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="Settings_Page.mobile_Settings_Page_Sign_Out()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" name="mobile_Settings_Page_Sign_Out" class="testing.appium.eBinders.Settings_Page"/>
+      </group> <!-- SmokeTest -->
+      <group name="iOS">
+        <method signature="Settings_Page.mobile_Settings_Page_Account()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" name="mobile_Settings_Page_Account" class="testing.appium.eBinders.Settings_Page"/>
+        <method signature="Settings_Page.mobile_Settings_Page_App_Version()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" name="mobile_Settings_Page_App_Version" class="testing.appium.eBinders.Settings_Page"/>
+        <method signature="Settings_Page.mobile_Settings_Page_Contact_Support()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" name="mobile_Settings_Page_Contact_Support" class="testing.appium.eBinders.Settings_Page"/>
+        <method signature="Settings_Page.mobile_Settings_Page_Privacy_Policy()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" name="mobile_Settings_Page_Privacy_Policy" class="testing.appium.eBinders.Settings_Page"/>
+        <method signature="Settings_Page.mobile_Settings_Page_Sign_Out()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" name="mobile_Settings_Page_Sign_Out" class="testing.appium.eBinders.Settings_Page"/>
+        <method signature="Settings_Page.mobile_Settings_Page_Software_Licenses()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" name="mobile_Settings_Page_Software_Licenses" class="testing.appium.eBinders.Settings_Page"/>
+        <method signature="Settings_Page.mobile_Settings_Page_UAT_Symbol()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" name="mobile_Settings_Page_UAT_Symbol" class="testing.appium.eBinders.Settings_Page"/>
+      </group> <!-- iOS -->
+      <group name="Android">
+        <method signature="Settings_Page.mobile_Settings_Page_Account()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" name="mobile_Settings_Page_Account" class="testing.appium.eBinders.Settings_Page"/>
+        <method signature="Settings_Page.mobile_Settings_Page_App_Version()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" name="mobile_Settings_Page_App_Version" class="testing.appium.eBinders.Settings_Page"/>
+        <method signature="Settings_Page.mobile_Settings_Page_Contact_Support()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" name="mobile_Settings_Page_Contact_Support" class="testing.appium.eBinders.Settings_Page"/>
+        <method signature="Settings_Page.mobile_Settings_Page_Privacy_Policy()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" name="mobile_Settings_Page_Privacy_Policy" class="testing.appium.eBinders.Settings_Page"/>
+        <method signature="Settings_Page.mobile_Settings_Page_Sign_Out()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" name="mobile_Settings_Page_Sign_Out" class="testing.appium.eBinders.Settings_Page"/>
+        <method signature="Settings_Page.mobile_Settings_Page_Software_Licenses()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" name="mobile_Settings_Page_Software_Licenses" class="testing.appium.eBinders.Settings_Page"/>
+        <method signature="Settings_Page.mobile_Settings_Page_UAT_Symbol()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" name="mobile_Settings_Page_UAT_Symbol" class="testing.appium.eBinders.Settings_Page"/>
+      </group> <!-- Android -->
+    </groups>
+    <test started-at="2022-12-01T15:14:54 CET" name="Settings Page" finished-at="2022-12-01T15:16:38 CET" duration-ms="104081">
+      <class name="testing.appium.eBinders.Settings_Page">
+        <test-method is-config="true" signature="startSession(java.lang.String,java.lang.String,java.lang.String,boolean,org.testng.ITestContext,org.testng.ITestResult)[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:14:25 CET" name="startSession" description="Set capabilities depending on the platformParameter, Initiate driver and Page Objects, Create Xray Test Run" finished-at="2022-12-01T15:14:54 CET" duration-ms="29124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SauceLabs_iOS_RealDevice_App]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[org.testng.TestRunner@42b0bcb0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:14:25.480  Information-->  This Test Run does Not imply the Creation of a Xray Test Report]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:14:27.276  Information-->  App File ID, Name and Version will be taken from SauceLabs]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:14:27.316  Information-->  SauceLabs, Florence App File ID: c6c926f0-69ee-4733-9856-20c7831d6cdb]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:14:27.337  Information-->  SauceLabs, Florence App Name env - Version: Florence UAT - 2022.13.1-1]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:14:27.345  Information-->  Running Suite: Test Set - Settings Page, one "UAT" environment]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:14:27.352  Information-->  Capabilities set for SauceLabs iOS Real Device - App, OS: 16]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:14:54.455  Information-->  SauceLabs Run Details Status: 200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:14:54 CET" name="precondition" description="Wait for the application to boot up" finished-at="2022-12-01T15:15:20 CET" duration-ms="26338" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:14:54.588  Waiting--> For the Application to Load]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:14:55.223  Information-->  Application is Running]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:14:55.225  Waiting--> for "Sign In Button" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:14:57.090  Action-->  Click on Sign In Button]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:14:57.092  Waiting--> for "Florence Logo" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:14:58.258  Action-->  Click on Florence Logo]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:14:58.259  Waiting--> for "Welcome Message" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:14:59.274  Assert-->  Verification successful - "Choose An Environment" is Present]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:14:59.277  Waiting--> for "UAT" element to be Clickable]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:00.144  Action-->  Click on "UAT" element]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:00.144  Waiting--> for "UAT" element to be Clickable]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:01.076  Assert-->  Verification successful: UAT Environment is selected]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:01.077  Waiting--> for "Email Field" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:02.243  Action-->  Click on Email Field]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:03.496  Action-->  Input Email Field: mobile.automation@florencehc.com
+]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:03.497  Waiting--> for "Next Button" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:04.922  Action-->  Click on Next Button]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:04.923  Waiting--> for "Password Field" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:07.538  Action-->  Click on Password Field]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:08.492  Action-->  Input Password Field: Password123*
+]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:08.493  Waiting--> for "Sign In Button" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:09.881  Action-->  Click on Sign In Button]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:09.883  Waiting--> for "Hi, Mobile" element to be Clickable]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:12.635  Assert-->  Verification successful - element: "Home Page Welcome Message - Hi, Mobile" is Present]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:12.636  Waiting--> for "Binders Button" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:14.011  Action-->  Click on Binders Button]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:14.011  Waiting--> for "Person Circle Button" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:16.124  Action-->  Click on Person Circle Button]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:16.125  Waiting--> for "Settings Button" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:17.582  Action-->  Click on Settings Button]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:17.583  Waiting--> for "Welcome Message" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:20.923  Assert-->  Verification successful - "Settings" is Present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:15:20 CET" name="beforeMethod" description="Set the Diver attribute for the needs of the result" finished-at="2022-12-01T15:15:20 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.appium.eBinders.Settings_Page.mobile_Settings_Page_UAT_Symbol()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SauceLabs_iOS_RealDevice_App]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Settings_Page.mobile_Settings_Page_UAT_Symbol()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobile_Settings_Page_UAT_Symbol()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:15:20 CET" name="mobile_Settings_Page_UAT_Symbol" description="Test case checks if The Environment symbol is not clickable and the user can&#039;t change the environment in Settings Page" finished-at="2022-12-01T15:15:26 CET" duration-ms="5499" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:15:21.579  Waiting--> for "UAT" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:21.839  Assert-->  "UAT" is Present]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:22.453  Waiting--> for "UAT" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:22.764  Assert-->  "UAT" is Present]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:23.087  Action-->  Click on "UAT" Element]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:23.088  Waiting--> for "Welcome Message" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:26.438  Assert-->  Verification successful - "Settings" is Present]]>
+            </line>
+            <line>
+              <![CDATA[--- Test Case - mobile_Settings_Page_UAT_Symbol -- Finish --> {color:#36b37e}*PASSED*{color} ---\n]]>
+            </line>
+            <line>
+              <![CDATA[\n --- *Test Environment* ---  \nTest Execution video: [https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c|https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c]\nExecution name: eBinders-Florence UAT - 2022.13.1-1 - iOS --> Test Set - Settings Page\nDevice name: iPhone XR\nPlatform: iOS\nOS version: 15.6.1\nApp Name: Florence - eBinders\nEnvironment: UAT\nApp Version: 2022.13.1]]>
+            </line>
+            <line>
+              <![CDATA[[32m------------ >>>[ Test PASSED: mobile_Settings_Page_UAT_Symbol ]<<< ------------[0m]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mobile_Settings_Page_UAT_Symbol -->
+        <test-method is-config="true" signature="postcondition(java.lang.String)[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:15:26 CET" name="postcondition" description="Restore the application to the minimum common state for all Test Cases" finished-at="2022-12-01T15:15:26 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:15:26.515  Information-->  There si no postcondition procedure for TC: mobile_Settings_Page_UAT_Symbol]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:15:26 CET" name="beforeMethod" description="Set the Diver attribute for the needs of the result" finished-at="2022-12-01T15:15:26 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.appium.eBinders.Settings_Page.mobile_Settings_Page_Account()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SauceLabs_iOS_RealDevice_App]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Settings_Page.mobile_Settings_Page_Account()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobile_Settings_Page_Account()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:15:26 CET" name="mobile_Settings_Page_Account" description="Test case checks Account name" finished-at="2022-12-01T15:15:28 CET" duration-ms="1930" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:15:26.519  Waiting--> for "mobile.automation@florencehc.com" element to be Clickable]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:28.447  Assert-->  Verification successful: mobile.automation@florencehc.com is Present]]>
+            </line>
+            <line>
+              <![CDATA[--- Test Case - mobile_Settings_Page_Account -- Finish --> {color:#36b37e}*PASSED*{color} ---\n]]>
+            </line>
+            <line>
+              <![CDATA[\n --- *Test Environment* ---  \nTest Execution video: [https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c|https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c]\nExecution name: eBinders-Florence UAT - 2022.13.1-1 - iOS --> Test Set - Settings Page\nDevice name: iPhone XR\nPlatform: iOS\nOS version: 15.6.1\nApp Name: Florence - eBinders\nEnvironment: UAT\nApp Version: 2022.13.1]]>
+            </line>
+            <line>
+              <![CDATA[[32m------------ >>>[ Test PASSED: mobile_Settings_Page_Account ]<<< ------------[0m]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mobile_Settings_Page_Account -->
+        <test-method is-config="true" signature="postcondition(java.lang.String)[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:15:28 CET" name="postcondition" description="Restore the application to the minimum common state for all Test Cases" finished-at="2022-12-01T15:15:28 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:15:28.516  Information-->  There si no postcondition procedure for TC: mobile_Settings_Page_Account]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:15:28 CET" name="beforeMethod" description="Set the Diver attribute for the needs of the result" finished-at="2022-12-01T15:15:28 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.appium.eBinders.Settings_Page.mobile_Settings_Page_App_Version()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SauceLabs_iOS_RealDevice_App]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Settings_Page.mobile_Settings_Page_App_Version()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobile_Settings_Page_App_Version()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:15:28 CET" name="mobile_Settings_Page_App_Version" description="Test case checks App Version" finished-at="2022-12-01T15:15:31 CET" duration-ms="3395" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:15:28.522  Waiting--> for "Welcome Message" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:31.913  Assert-->  Verification successful - "2022.13.1" is Present]]>
+            </line>
+            <line>
+              <![CDATA[--- Test Case - mobile_Settings_Page_App_Version -- Finish --> {color:#36b37e}*PASSED*{color} ---\n]]>
+            </line>
+            <line>
+              <![CDATA[\n --- *Test Environment* ---  \nTest Execution video: [https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c|https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c]\nExecution name: eBinders-Florence UAT - 2022.13.1-1 - iOS --> Test Set - Settings Page\nDevice name: iPhone XR\nPlatform: iOS\nOS version: 15.6.1\nApp Name: Florence - eBinders\nEnvironment: UAT\nApp Version: 2022.13.1]]>
+            </line>
+            <line>
+              <![CDATA[[32m------------ >>>[ Test PASSED: mobile_Settings_Page_App_Version ]<<< ------------[0m]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mobile_Settings_Page_App_Version -->
+        <test-method is-config="true" signature="postcondition(java.lang.String)[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:15:31 CET" name="postcondition" description="Restore the application to the minimum common state for all Test Cases" finished-at="2022-12-01T15:15:31 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:15:31.977  Information-->  There si no postcondition procedure for TC: mobile_Settings_Page_App_Version]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:15:31 CET" name="beforeMethod" description="Set the Diver attribute for the needs of the result" finished-at="2022-12-01T15:15:31 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.appium.eBinders.Settings_Page.mobile_Settings_Page_Contact_Support()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SauceLabs_iOS_RealDevice_App]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Settings_Page.mobile_Settings_Page_Contact_Support()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobile_Settings_Page_Contact_Support()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:15:31 CET" name="mobile_Settings_Page_Contact_Support" description="Test case checks if Contact Support link works" finished-at="2022-12-01T15:15:34 CET" duration-ms="2077" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:15:31.979  Waiting--> for "Contact Support Button" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:34.054  Action-->  Click on Contact Support Button]]>
+            </line>
+            <line>
+              <![CDATA[--- Test Case - mobile_Settings_Page_Contact_Support -- Finish --> {color:#36b37e}*PASSED*{color} ---\n]]>
+            </line>
+            <line>
+              <![CDATA[\n --- *Test Environment* ---  \nTest Execution video: [https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c|https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c]\nExecution name: eBinders-Florence UAT - 2022.13.1-1 - iOS --> Test Set - Settings Page\nDevice name: iPhone XR\nPlatform: iOS\nOS version: 15.6.1\nApp Name: Florence - eBinders\nEnvironment: UAT\nApp Version: 2022.13.1]]>
+            </line>
+            <line>
+              <![CDATA[[32m------------ >>>[ Test PASSED: mobile_Settings_Page_Contact_Support ]<<< ------------[0m]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mobile_Settings_Page_Contact_Support -->
+        <test-method is-config="true" signature="postcondition(java.lang.String)[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:15:34 CET" name="postcondition" description="Restore the application to the minimum common state for all Test Cases" finished-at="2022-12-01T15:15:34 CET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:15:34.123  Information-->  There si no postcondition procedure for TC: mobile_Settings_Page_Contact_Support]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method signature="mobile_Settings_Page_Privacy_Policy()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:15:34 CET" name="mobile_Settings_Page_Privacy_Policy" description="Test case checks if Privacy Policy link work" finished-at="2022-12-01T15:16:10 CET" duration-ms="36725" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:15:34.127  Waiting--> for "Privacy Policy Button" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:38.095  Action-->  Click on Privacy Policy Button]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:15:38.096  Waiting--> for "Privacy Page Title" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:10.849  Assert-->  Verification successful - "Privacy" is Present]]>
+            </line>
+            <line>
+              <![CDATA[--- Test Case - mobile_Settings_Page_Privacy_Policy -- Finish --> {color:#36b37e}*PASSED*{color} ---\n]]>
+            </line>
+            <line>
+              <![CDATA[\n --- *Test Environment* ---  \nTest Execution video: [https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c|https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c]\nExecution name: eBinders-Florence UAT - 2022.13.1-1 - iOS --> Test Set - Settings Page\nDevice name: iPhone XR\nPlatform: iOS\nOS version: 15.6.1\nApp Name: Florence - eBinders\nEnvironment: UAT\nApp Version: 2022.13.1]]>
+            </line>
+            <line>
+              <![CDATA[[32m------------ >>>[ Test PASSED: mobile_Settings_Page_Privacy_Policy ]<<< ------------[0m]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mobile_Settings_Page_Privacy_Policy -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:15:34 CET" name="beforeMethod" description="Set the Diver attribute for the needs of the result" finished-at="2022-12-01T15:15:34 CET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.appium.eBinders.Settings_Page.mobile_Settings_Page_Privacy_Policy()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SauceLabs_iOS_RealDevice_App]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Settings_Page.mobile_Settings_Page_Privacy_Policy()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="postcondition(java.lang.String)[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:16:10 CET" name="postcondition" description="Restore the application to the minimum common state for all Test Cases" finished-at="2022-12-01T15:16:21 CET" duration-ms="10826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:16:10.916  Information-->  Postcondition procedure for TC: mobile_Settings_Page_Privacy_Policy]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:12.147  Information-->  Terminate iOS App: com.florencehc.florenceapp.internal]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:13.538  Information-->  Activate iOS App: com.florencehc.florenceapp.internal]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:13.539  Waiting--> for "Binders Button" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:14.933  Action-->  Click on Binders Button]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:14.934  Waiting--> for "Person Circle Button" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:16.968  Action-->  Click on Person Circle Button]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:16.970  Waiting--> for "Settings Button" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:18.398  Action-->  Click on Settings Button]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:18.398  Waiting--> for "Welcome Message" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:21.742  Assert-->  Verification successful - "Settings" is Present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:16:21 CET" name="beforeMethod" description="Set the Diver attribute for the needs of the result" finished-at="2022-12-01T15:16:21 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.appium.eBinders.Settings_Page.mobile_Settings_Page_Software_Licenses()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SauceLabs_iOS_RealDevice_App]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Settings_Page.mobile_Settings_Page_Software_Licenses()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobile_Settings_Page_Software_Licenses()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:16:21 CET" name="mobile_Settings_Page_Software_Licenses" description="Test case checks if Privacy Policy link work" finished-at="2022-12-01T15:16:31 CET" duration-ms="9655" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:16:21.756  Waiting--> for "Software Licenses Button" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:24.001  Action-->  Click on Software Licenses Button]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:24.002  Waiting--> for "Software Licenses Page Title" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:31.398  Assert-->  Verification successful - "Software Licenses" is Present]]>
+            </line>
+            <line>
+              <![CDATA[--- Test Case - mobile_Settings_Page_Software_Licenses -- Finish --> {color:#36b37e}*PASSED*{color} ---\n]]>
+            </line>
+            <line>
+              <![CDATA[\n --- *Test Environment* ---  \nTest Execution video: [https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c|https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c]\nExecution name: eBinders-Florence UAT - 2022.13.1-1 - iOS --> Test Set - Settings Page\nDevice name: iPhone XR\nPlatform: iOS\nOS version: 15.6.1\nApp Name: Florence - eBinders\nEnvironment: UAT\nApp Version: 2022.13.1]]>
+            </line>
+            <line>
+              <![CDATA[[32m------------ >>>[ Test PASSED: mobile_Settings_Page_Software_Licenses ]<<< ------------[0m]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mobile_Settings_Page_Software_Licenses -->
+        <test-method is-config="true" signature="postcondition(java.lang.String)[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:16:31 CET" name="postcondition" description="Restore the application to the minimum common state for all Test Cases" finished-at="2022-12-01T15:16:34 CET" duration-ms="2996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:16:31.469  Information-->  Postcondition procedure for TC: mobile_Settings_Page_Software_Licenses]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:31.470  Waiting--> for "Close Button" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:34.463  Action-->  Click on Close Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method,java.lang.String,java.lang.String,java.lang.String,org.testng.ITestResult)[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:16:34 CET" name="beforeMethod" description="Set the Diver attribute for the needs of the result" finished-at="2022-12-01T15:16:34 CET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testing.appium.eBinders.Settings_Page.mobile_Settings_Page_Sign_Out()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SauceLabs_iOS_RealDevice_App]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Settings_Page.mobile_Settings_Page_Sign_Out()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mobile_Settings_Page_Sign_Out()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:16:34 CET" name="mobile_Settings_Page_Sign_Out" description="Test case checks if Sign Out function work" finished-at="2022-12-01T15:16:38 CET" duration-ms="3967" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:16:34.471  Waiting--> for "Sign Out Button" to be Visible]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:36.517  Action-->  Click on Sign Out Button]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:36.518  Waiting--> for "UAT" element to be Clickable]]>
+            </line>
+            <line>
+              <![CDATA[2022-12-01 15:16:38.435  Assert-->  Verification successful: UAT Environment is selected]]>
+            </line>
+            <line>
+              <![CDATA[--- Test Case - mobile_Settings_Page_Sign_Out -- Finish --> {color:#36b37e}*PASSED*{color} ---\n]]>
+            </line>
+            <line>
+              <![CDATA[\n --- *Test Environment* ---  \nTest Execution video: [https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c|https://app.eu-central-1.saucelabs.com/tests/4fd9256aee9348fb8c1bde99637ff4ee?auth=f5a6ee816ceed96af21ef77e162e9b2c]\nExecution name: eBinders-Florence UAT - 2022.13.1-1 - iOS --> Test Set - Settings Page\nDevice name: iPhone XR\nPlatform: iOS\nOS version: 15.6.1\nApp Name: Florence - eBinders\nEnvironment: UAT\nApp Version: 2022.13.1]]>
+            </line>
+            <line>
+              <![CDATA[[32m------------ >>>[ Test PASSED: mobile_Settings_Page_Sign_Out ]<<< ------------[0m]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mobile_Settings_Page_Sign_Out -->
+        <test-method is-config="true" signature="postcondition(java.lang.String)[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:16:38 CET" name="postcondition" description="Restore the application to the minimum common state for all Test Cases" finished-at="2022-12-01T15:16:38 CET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:16:38.505  Information-->  There si no postcondition procedure for TC: mobile_Settings_Page_Sign_Out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="endSession()[pri:0, instance:testing.appium.eBinders.Settings_Page@6b95831a]" started-at="2022-12-01T15:16:38 CET" name="endSession" description="Quit the driver and close the session" finished-at="2022-12-01T15:16:38 CET" duration-ms="136" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[2022-12-01 15:16:38.646  Action-->  Driver quit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- testing.appium.eBinders.Settings_Page -->
+    </test> <!-- Settings Page -->
+  </suite> <!-- Test Set - Settings Page -->
+</testng-results>

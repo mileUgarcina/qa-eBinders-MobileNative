@@ -1,0 +1,148 @@
+{
+  "qa": {
+  "Android": {
+    "PackageId": "com.crealogix.conversational.qa",
+    "SauceLabsId": "c6c926f0-69ee-4733-9856-20c7831d6cdb",
+    "SauceLabsName": "eBinders_QA",
+    "OSVersion": "12.0",
+
+    "Clinical": {
+      "Username": "mobile.automation@florencehc.com",
+      "Password": "Password123*",
+      "FirstName": "Active",
+      "MiddleName": "Appium",
+      "LastName": "Android"
+    },
+    "Participant": {
+      "Username": "mobile.automation+active_android@florencehc.com",
+      "Password": "Password123*",
+      "FirstName": "Active",
+      "MiddleName": "Appium",
+      "LastName": "Android"
+    }
+  },
+  "iOS": {
+    "PackageId": "com.crealogix.conversational.qa",
+    "SauceLabsId": "c6c926f0-69ee-4733-9856-20c7831d6cdb",
+    "SauceLabsName": "eBinders_QA",
+    "OSVersionRealDevice": "16",
+    "OSVersionSimulator": "16",
+
+    "Clinical": {
+      "Username": "mobile.automation@florencehc.com",
+      "Password": "Password123*",
+      "FirstName": "Active",
+      "MiddleName": "Appium",
+      "LastName": "iOS"
+    },
+    "Participant": {
+      "Username": "mobile.automation+active_ios@florencehc.com",
+      "Password": "Password123*",
+      "FirstName": "Active",
+      "MiddleName": "Appium",
+      "LastName": "iOS"
+    }
+  },
+  "App": {
+    "Url": "https://us-participant-auth.se.qav2.researchbinders.com"
+  }
+},
+
+  "fate": {
+    "Android": {
+      "PackageId": "com.crealogix.conversational.dev",
+      "SauceLabsId": "c6c926f0-69ee-4733-9856-20c7831d6cdb",
+      "SauceLabsName": "eBinders_FATE",
+      "OSVersion": "12.0",
+
+      "Clinical": {
+        "Username": "Admin.Android.dev@crealogix.com",
+        "Password": "1234",
+        "FirstName": "Active",
+        "MiddleName": "Appium",
+        "LastName": "Android"
+      },
+      "Participant": {
+        "Username": "Client.Android.dev@gmail.com",
+        "Password": "1234",
+        "FirstName": "Active",
+        "MiddleName": "Appium",
+        "LastName": "Android"
+      }
+    },
+    "iOS": {
+      "PackageId": "com.crealogix.conversational.dev",
+      "SauceLabsId": "c6c926f0-69ee-4733-9856-20c7831d6cdb",
+      "SauceLabsName": "eBinders_FATE",
+      "OSVersionRealDevice": "16",
+      "OSVersionSimulator": "15.4",
+
+      "Clinical": {
+        "Username": "Admin.iOS.dev@crealogix.com",
+        "Password": "1234",
+        "FirstName": "Active",
+        "MiddleName": "Appium",
+        "LastName": "iOS"
+      },
+      "Participant": {
+        "Username": "Client.iOS.dev@gmail.com",
+        "Password": "1234",
+        "FirstName": "Active",
+        "MiddleName": "Appium",
+        "LastName": "iOS"
+      }
+    },
+    "App": {
+      "Url": "https://us-participant-auth.se.fatev2.researchbinders.com"
+    }
+  },
+
+  "uat": {
+    "Android": {
+      "PackageId": "com.crealogix.conversational.sit",
+      "SauceLabsId": "46acc854-80ba-460b-a36d-da3d29bc0cf8",
+      "SauceLabsName": "eBinders_UAT",
+      "OSVersion": "12",
+
+      "Clinical": {
+        "Username": "Admin.Android.sit@crealogix.com",
+        "Password": "1234",
+        "FirstName": "Active",
+        "MiddleName": "Appium",
+        "LastName": "Android"
+      },
+      "Participant": {
+        "Username": "Client.Android.sit@gmail.com",
+        "Password": "1234",
+        "FirstName": "Active",
+        "MiddleName": "Appium",
+        "LastName": "Android"
+      }
+    },
+    "iOS": {
+      "PackageId": "com.crealogix.conversational.sit",
+      "SauceLabsId": "c6c926f0-69ee-4733-9856-20c7831d6cdb",
+      "SauceLabsName": "eBinders_UAT",
+      "OSVersionRealDevice": "16",
+      "OSVersionSimulator": "15.4",
+
+      "Clinical": {
+        "Username": "Admin.iOS.sit@crealogix.com",
+        "Password": "1234",
+        "FirstName": "Active",
+        "MiddleName": "Appium",
+        "LastName": "iOS"
+      },
+      "Participant": {
+        "Username": "Client.iOS.sit@gmail.com",
+        "Password": "1234",
+        "FirstName": "Active",
+        "MiddleName": "Appium",
+        "LastName": "iOS"
+      }
+    },
+    "App": {
+      "Url": "https://us-participant-auth.se.uatv2.researchbinders.com"
+    }
+  }
+}

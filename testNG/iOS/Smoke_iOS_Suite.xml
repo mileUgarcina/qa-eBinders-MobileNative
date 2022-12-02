@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite - Android" >
+
+<!--    <parameter name="deviceParameter" value="localiOSimulatorSCapsWeb"/>-->
+    <parameter name="deviceParameter" value="remoteiOSCapsWeb"/>
+    <parameter name="platformParameter" value="iOS"/>
+    <parameter name="browserName" value="Safari"/>
+
+    <parameter name="user" value="Participant"/>
+    <parameter name="crete_Xray_Test_Run" value="false"/>
+    <parameter name="unactivatedUsername" value="mobile.automation+unactivated_android@florencehc.com"/>
+    <parameter name="unactivatedPassword" value="Unactivated123*"/>
+    <parameter name="incorrectUsername" value="incorrect"/>
+    <parameter name="incorrectPassword" value="incorrect"/>
+    <parameter name="additional_LAR_Username" value="mobile.automation+lar_android@florencehc.com"/>
+    <parameter name="additional_LAR_Password" value="Password123*"/>
+    <parameter name="additional_LAR_FirstName" value="Active_LAR"/>
+    <parameter name="additional_LAR_MiddleName" value="Appium"/>
+    <parameter name="additional_LAR_LastName" value="Android"/>
+    <parameter name="emptyUsername" value=""/>
+    <parameter name="emptyPassword" value=""/>
+
+    <test name="Smoke Test Suite - Android">
+    <groups>
+        <run>
+           <include name="SmokeTest"/>
+        </run>
+    </groups>
+
+    <packages>
+        <package name="testing.appium.eConsentTesting.Web.sign_In"/>
+    </packages>
+    </test>
+
+</suite>
+
+

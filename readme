@@ -1,0 +1,4 @@
+curl -u "adam_dzik:AF415FA48B70472AB2AB9FED41DF089F" -X POST https://app.testobject.com:443/api/storage/upload -H "Content-Type: application/octet-stream" --data-binary @mdb-r191-test-3.3.269-release.apk
+
+curl -F 'payload=@mdb-r191-lat-3.3.320-debug.apk' -F name=mdb-r191-lat-3.3.320-debug.apk -u "adam.dzik:64d43bf1-d213-4f20-9b12-5bba879ed832"  'https://api.eu-central-1.saucelabs.com/v1/storage/upload'
+
